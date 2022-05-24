@@ -1,5 +1,4 @@
 function calcular(tipo, valor){
-
 	if (tipo === "acao") {
 		if (valor === "c") {
             document.getElementById("resultado").value = ""
@@ -14,7 +13,6 @@ function calcular(tipo, valor){
 
             document.getElementById("resultado").value = valor_campo
         }
-
         } else if(tipo === "valor") {
  			document.getElementById("resultado").value += valor
         }
